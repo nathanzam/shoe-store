@@ -1,0 +1,43 @@
+<blockquote ng-repeat="review in product.reviews">
+  <strong>Stars: {{review.stars}}</strong> {{review.body}}
+  <cite class="clearfix">&mdash; {{review.author}}</cite>
+</blockquote>
+
+<form name="reviewForm" ng-submit="reviewForm.$valid && addReview(product)" novalidate>
+  <!-- live preview -->
+  <blockquote>
+    <strong>Stars: {{review.stars}}</strong> {{review.body}}
+    <cite class="clearfix">&mdash; {{review.author}}</cite>
+  </blockquote>
+  <div ng-show="reviewForm.reviewStars.$pristine && reviewForm.reviewStars.$invalid" class="alert alert-danger" role="alert">
+    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> You must enter a rating
+  </div>
+  <div ng-show="reviewForm.reviewBody.$pristine && reviewForm.reviewBody.$invalid && reviewForm.reviewBody.$touched" class="alert alert-danger" role="alert">
+    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> You must enter a review
+  </div>
+  <div ng-show="reviewForm.reviewEmail.$dirty && reviewForm.reviewEmail.$invalid" class="alert alert-danger" role="alert">
+    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> You must enter a valid email address
+  </div>
+  <!-- Review Form -->
+  <div class="form-group">
+    <select class="form-control" ng-model="review.stars" name="reviewStars" required>
+      <option value="" disabled selected>Star Rating</option>
+      <option value="1">1 Stars</option>
+      <option value="2">2 Stars</option>
+      <option value="3">3 Stars</option>
+      <option value="4">4 Stars</option>
+      <option value="5">5 Stars</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <textarea ng-model="review.body" class="form-control" placeholder="Write short review here..." name="reviewBody" rows="5" cols="80" required></textarea>
+  </div>
+  <div class="form-group">
+    <input ng-model="review.author" class="form-control" type="email" name="reviewEmail" placeholder="janedoe@hotmail.com" required>
+  </div>
+  <div class="form-group clearfix">
+    <button type="submit" class="btn btn-primary pull-right" name="button" ng-disabled="reviewForm.$invalid">Submit</button>
+  </div>
+  <!-- Debugging Code -->
+  <div>reviewForm is {{reviewForm.$valid}}</div>
+</form>

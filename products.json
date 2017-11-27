@@ -1,0 +1,56 @@
+[{
+  "name": "Under Armour UA Drive 4",
+  "description": "Elevate your game to legendary baller status with the flexible, cushioned support of the Under Armour® UA Drive 4 shoe!",
+  "cushioning": "Die-cut EVA sockliner midsole offers cushioned support.",
+  "price": 114.99,
+  "sizeFit": "N/A",
+  "widthFit": "N/A",
+  "archSupport": "N/A",
+  "canPurchase": true,
+  "images": ["images/UA-Drive-1.jpg", "images/UA-Drive-2.jpg", "images/UA-Drive-3.jpg", "images/UA-Drive-4.jpg"],
+  "reviews": []
+}, {
+  "name": "Under Armour UA Shostopper",
+  "description": "Overcome any obstacle when you train with the unparalleled performance of the Under Armour® UA Showstopper shoe!",
+  "cushioning": "One-piece EVA midsole with medial and lateral wrap for added stability.",
+  "price": 89.99,
+  "sizeFit": "N/A",
+  "widthFit": "N/A",
+  "archSupport": "N/A",
+  "canPurchase": true,
+  "images": ["images/UA-Showstopper-1.jpg", "images/UA-Showstopper-2.jpg", "images/UA-Showstopper-3.jpg", "images/UA-Showstopper-4.jpg"],
+  "reviews": []
+}, {
+  "name": "Nike Air Zoom Pegasus 34",
+  "description": "Take to the pavement with the Air Zoom Pegasus 34. With an improved Flymesh upper, enhanced breathability and responsive cushioning, your miles will go on further and smoother with Nike.",
+  "cushioning": "Light, flexible response",
+  "price": 110,
+  "sizeFit": "71%",
+  "widthFit": "100%",
+  "archSupport": "69%",
+  "canPurchase": true,
+  "images": ["images/Nike-Pegasus-1.jpg", "images/Nike-Pegasus-2.jpg","images/Nike-Pegasus-3.jpg", "images/Nike-Pegasus-4.jpg"],
+  "reviews": []
+  }, {
+  "name": "Nike Shox Avenue",
+  "description": "Hit the streets in these cool and comfortable sneakers.",
+  "cushioning": "Cushioned footbed and collar provide lasting comfort.",
+  "price": 114.09,
+  "sizeFit": "76%",
+  "widthFit": "92%",
+  "archSupport": "62%",
+  "canPurchase": true,
+  "images": ["images/Nike-Shox.jpg", "images/Nike-Shox-2.jpg", "images/Nike-Shox-3.jpg", "images/Nike-Shox-4.jpg"],
+  "reviews": []
+  }, {
+  "name": "Skechers Equalizer Double Play",
+  "description": "Fall into comfortable stride in the SKECHERS® Equalizer Double Play slip-on shoe.",
+  "cushioning": "Memory Foam Gel-Infused footbed supplies underfoot cushioning.",
+  "price": 42.99,
+  "sizeFit": "67%",
+  "widthFit": "94%",
+  "archSupport": "82%",
+  "canPurchase": true,
+  "images": ["images/Skechers-Equalizer-1.jpg", "images/Skechers-Equalizer-2.jpg", "images/Skechers-Equalizer-3.jpg", "images/Skechers-Equalizer-4.jpg"],
+  "reviews": []
+}]
